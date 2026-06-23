@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>My first website</title>
+  </head>
+  <body>
+    <a href="https://www.google.com">
+      <button
+        onclick="doSomething()" style="background-color: #e9d5ff; color: #581c87; border-radius: 5px; border: none; font-weight: bold; cursor: pointer;">
+     
+       <p id="test">Hello</p>
+       <script>
+        function doSomething() {
+            document.getElementById("test").innerHTML = "You clicked the button!"
+        }
+       </script>
+    </a>
+  </body>
+</html>
